@@ -1,0 +1,15 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+			<ion-menu-button></ion-menu-button>
+		</ion-buttons>
+		<ion-title>
+			Working with Custom Components
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+	<c-header name="custom header"></c-header>
+	<c-preload-image [ratio]="{w: 2, h: 1}" [src]="'https://placeimg.com/200/100/any'"></c-preload-image>
+</ion-content>
