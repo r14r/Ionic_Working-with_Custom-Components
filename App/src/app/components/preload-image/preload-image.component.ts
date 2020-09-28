@@ -1,7 +1,7 @@
 import { Component, Input, ElementRef, Renderer2, ViewEncapsulation, OnChanges } from '@angular/core';
 
 @Component({
-	selector: 'c-preload-image',
+	selector: 'app-preload-image',
 	templateUrl: './preload-image.component.html',
 	styleUrls: ['./preload-image.component.scss'],
 	encapsulation: ViewEncapsulation.None
